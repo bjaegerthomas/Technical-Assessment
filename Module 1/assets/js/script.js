@@ -10,7 +10,7 @@ function submitForm() {
         return;
 }
 
-signInBtn.addEventListener("click", function(event) {
+submitBtn.addEventListener("click", function(event) {
     event.preventDefault();
     submitForm();
 });}
