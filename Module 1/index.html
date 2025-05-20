@@ -39,18 +39,34 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/images/acme.png" class="d-block w-100" alt="acme logo, a cartoon bomb, hammer, and anvil with the words 'Acme Corporation'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Acme Corporation</h4>
+                            <p>We helped Acme Corporation launch their new line of products with a series of eye-catching ads that generated buzz and excitement.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/globex.png" class="d-block w-100" alt="a glowing globe of the earth with the words 'Globex Corporation'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Globex Corporation</h4>
+                            <p>Our team worked with Globex Corporation to create a comprehensive marketing strategy that increased their brand visibility and sales.</p>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/initech.png" class="d-block w-100" alt="an inchworm being ridden by a small cowboy with the words 'Initech'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Initech</h4>
+                            <p>We partnered with Initech to develop a series of humorous ads that resonated with their target audience and drove engagement.</p>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/umbrella.png" class="d-block w-100" alt="an umbrella with several natural disasters occuring inside of it with the words 'Umbrella Corporation'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Umbrella Corporation</h4>
+                            <p>Our team helped Umbrella Corporation launch their new product line with a series of innovative ads that captured attention and drove sales.</p>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/wy.png" class="d-block w-100" alt="a cup of yogurt wrapped in the german and japanese flag colors with a pretzel and cherry blossom in front of it with the words 'Weyland-Yutani Corporation'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Weyland-Yutani Corporation</h4>
+                            <p>We worked with Weyland-Yutani Corporation to create a series of ads that highlighted their commitment to innovation and quality.</p>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#clientCarousel" data-bs-slide="prev">
@@ -66,10 +82,18 @@
         </section>
         <section id="Contact">
             <h3>Contact</h3>
-            <p>If you would like to learn more about Shyster Advertising or discuss a potential project you can contact us by phone, email, or through our website.</p>
-            <p>Phone: 555-555-5555</p>
-            <p>Email: wearelyingtoyou@wtf.com</p>
-            <p>Website: www.shysteradvertising.com</p>
+                <form id="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                
+                    <button type="submit" id="submit">Submit</button>
+
+                    <p id="error"></p>
+                </form>
+                <script src="./script.js"></script>
             <p>We look forward to hearing from you and helping you achieve your advertising goals.</p>
         </section>
     </main>
