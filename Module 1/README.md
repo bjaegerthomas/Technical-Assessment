@@ -15,7 +15,7 @@
   - [Questions](#questions)
 
   ## Description
-  A simple splash page for a fictional business. Using HTML, CSS, and Javascript I have designed a very barebones webpage to illustrate my understanding of coding concepets for the languages mentioned.
+  A simple splash page for a fictional business. Using HTML, CSS, and Javascript I have designed a very barebones webpage to illustrate my understanding of coding concepets for the languages mentioned above.
 
   ## Installation
   First you will need to clone the repository
