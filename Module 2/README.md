@@ -28,13 +28,21 @@
 
   Open an integrated terminal in VS Code from the 2nd module folder.
 
-  Next you will type  `` npm init -y ``. ![init terminal prompt](./assets/imgages/init.png)
+  Next you will type  `` npm init -y ``.
+  
+  ![init terminal prompt](./assets/imgages/init.png)
 
-  and then you will need to install express `` npm install express ``. ![express terminal prompt](./assets/images/express.png)
+  and then you will need to install express `` npm install express ``.
+  
+  ![express terminal prompt](./assets/images/express.png)
 
-  Once this is complete you will type the following into the terminal: `` node index.js `` and hit return. ![initiating the server prompt](./assets/images/start.png)
+  Once this is complete you will type the following into the terminal: `` node index.js `` and hit return.
+  
+  ![initiating the server prompt](./assets/images/start.png)
 
-  Right click or cmd + left click on the port link which comes up and is running locally. ![server is running](./assets/images/server.png)
+  Right click or cmd + left click on the port link which comes up and is running locally.
+  
+  ![server is running](./assets/images/server.png)
 
   Once you do this a page should open in your default browser displaying the following image:
 
