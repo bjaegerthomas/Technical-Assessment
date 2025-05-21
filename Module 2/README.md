@@ -30,7 +30,7 @@
 
   - Next you will type  `` npm init -y ``.
   
-  ![init terminal prompt](./assets/imgages/packagejson.png)
+  ![init terminal prompt](./assets/images/init.png)
 
   - And then you will need to install express `` npm install express ``.
   
