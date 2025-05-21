@@ -28,15 +28,15 @@
 
   Open an integrated terminal in VS Code from the 2nd module folder.
 
-  - Next you will type  `` npm init -y ``.
+  - <span style="color:blue">Next you will type</span>  `` npm init -y ``
   
   ![init terminal prompt](./assets/images/init.png)
 
-  - And then you will need to install express `` npm install express ``.
+  - And then you will need to install express `` npm install express ``
   
   ![express terminal prompt](./assets/images/express.png)
 
-  - Once this is complete you will type the following into the terminal: `` node index.js `` and hit return.
+  - Once this is complete you will type the following into the terminal: `` node index.js `` and hit return
   
   ![initiating the server prompt](./assets/images/start.png)
 
