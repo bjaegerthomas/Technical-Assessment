@@ -28,7 +28,7 @@
 
   Open an integrated terminal in VS Code from the 2nd module folder.
 
-  Next you will type  `` npm install ``. ![install terminal prompt](./assets/imgages/install.png)
+  Next you will type  `` npm init -y ``. ![init terminal prompt](./assets/imgages/init.png)
 
   and then you will need to install express `` npm install express ``. ![express terminal prompt](./assets/images/express.png)
 
