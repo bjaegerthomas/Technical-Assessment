@@ -11,11 +11,10 @@ export default function Counter() {
             alert('You didn\'t enter a todo');
             return;
         }
-
-        setTodoList([...todoList, {
-            id: id, text: inputTodo, completed: false
-        }]);
-            
+         
+        const updatedTodo = {id: id, text: inputTodo, completed: false};
+        setTodoList([...todoList, updatedTodo]);
+        setId(id + 1);
         setInputTodo('');
     };
 
