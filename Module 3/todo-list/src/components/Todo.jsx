@@ -48,6 +48,6 @@ export default function Todo() {
                 ))}
             </ul>
         </div>
-    );
+    )
 
 }
