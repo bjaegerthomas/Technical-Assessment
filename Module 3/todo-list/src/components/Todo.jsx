@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Todo() {
-    let [todoList, setTodoList] = useState('');
+    let [todoList, setTodoList] = useState([]);
     let [inputTodo, setInputTodo] = useState('');
     const [id, setId] = useState(0);
 
