@@ -1,5 +1,5 @@
 import Todo from './components/todo';
-import './App.css'
+import './index.css'; 
 
 function App() {
   return <Todo/>;
