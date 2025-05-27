@@ -48,7 +48,7 @@ const resolvers = {
         throw new AuthenticationError('Not Authenticated');
       }
 
-      const token = signToken(profile.name, profile.email, profile._id);
+      const token = signToken(profile.email, profile._id);
       return { token, profile };
     },
   },
