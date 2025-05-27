@@ -1,6 +1,8 @@
 import db from '../config/connection.js';
 import { Profile } from '../models/index.js';
-import profileSeeds from './profileData.json' assert { type: "json" };
+import fs from 'fs';
+const profileSeeds = JSON.parse(fs.readFileSync(new URL('./profileData.json', import.meta.url), 'utf-8'));
+
 import cleanDB from './cleanDB.js';
 
 const seedDatabase = async (): Promise<void> => {
