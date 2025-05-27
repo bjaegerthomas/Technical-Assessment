@@ -46,11 +46,9 @@
 
   - From here you should now be able to see that the apollo server is up and running.
 
-  ![Result display of adding a todo](./assets/images/server.png)
+  - You can now right click or command click (on a mac) on the GraphQL link `` http://localhost:3000/graphql `` and use graphQL to make queries.
 
-  - You can now right click or command click (on a mac) on the apollo link and use graphQL to make queries.
-
-  ![A display of the GraphQL interface with the login data](./assets/images/delete.png)
+  ![A display of the GraphQL interface with the login data](./assets/images/qraphQL.png)
 
   ## Contribution
 
