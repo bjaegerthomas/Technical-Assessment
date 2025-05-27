@@ -44,17 +44,13 @@
   
   ![Starting up the apollo server](./assets/images/start.png)
 
-  - From here you should now be able to add new to-do's by typing a new to-do and then clicking on the add Todo button:
+  - From here you should now be able to see that the apollo server is up and running.
 
-  ![Result display of adding a todo](./assets/images/add.png)
+  ![Result display of adding a todo](./assets/images/server.png)
 
-  - You can delete to-do's by clicking on the delet button next to the todo you would like to delete.
+  - You can now right click or command click (on a mac) on the apollo link and use graphQL to make queries.
 
-  ![Highlighting of the delete button](./assets/images/delete.png)
-
-   - and finally you can also mark tasks as completed by clicking on the completed buttong next to the desired todo. That todo should now show a strikethrough of the lettering of the todo.
-
-  ![Showing how a todo is marked as completed by showing a strikethrough of the todo](./assets/images/complete.png)
+  ![A display of the GraphQL interface with the login data](./assets/images/delete.png)
 
   ## Contribution
 
@@ -62,7 +58,7 @@
   Make your changes and commit them with descriptive messages.
   Submit a Pull Request with clear explanations of your modifications.
   Use meaningful variable names and comments.
-  Follow guidelines for React, HTML, CSS and Javascript formatting.
+  Follow guidelines for a MERN style server build and Typescript formatting.
 
   ## Questions
 
