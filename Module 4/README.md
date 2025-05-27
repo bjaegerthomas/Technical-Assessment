@@ -24,25 +24,25 @@
 
   `` git clone git@github.com:bjaegerthomas/Technical-Assessment.git ``
 
-  In vscode you will want to navigate to the Module 3 folder.
+  In vscode you will want to navigate to the Module 4 folder.
 
-  Open an integrated terminal in VS Code from the folder "todo-list" inside the 3rd module folder.
+  Open an integrated terminal in VS Code from the "authentication" folder inside the 4th module folder.
 
   - Next you will type `` npm install `` and hit return.
   
   ![Showing the install prompt in the terminal](./assets/images/install.png)
 
-  - And then you will want to initialize the program by typing `` npm run dev `` and hit return.
-  
-  ![Showing the run dev script in the terminal](./assets/images/runDev.png)
+  - Next you will want to compile the typescript files by typing `` npm run build ``.
 
-  - You should see that the server is now running on local port 3000. Right click or command click on a mac and the application should open in your default browser.
-  
-  ![Showing the resuklt of the server running in VS Code](./assets/images/server.png)
+  ![Showing the run build script in the terminal](./assets/images/build.png)
 
-  - Right click or cmd + left click on the port link which comes up and is running locally.
+  - And then you will want to seed the database with starter info by typing `` npm run seed `` and hit return.
   
-  ![Display of the todo app main screen](./assets/images/todo.png)
+  ![Showing the run seed script in the terminal](./assets/images/seed.png)
+
+  - After this you will want to run the program by typing `` npm run start ``.
+  
+  ![Starting up the apollo server](./assets/images/start.png)
 
   - From here you should now be able to add new to-do's by typing a new to-do and then clicking on the add Todo button:
 
