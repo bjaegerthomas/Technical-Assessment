@@ -25,6 +25,12 @@ const blogPostSchema = new Schema<IBlogPost>(
       default: Date.now,
     },
 },
+    {
+    _id: false,
+    toJSON: { getters: true },
+    toObject: { getters: true },
+    timestamps: true,
+    }
 );
 
 const BlogPost = model<IBlogPost>('BlogPost', blogPostSchema);
