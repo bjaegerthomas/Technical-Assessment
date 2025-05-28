@@ -1,33 +1,27 @@
 const typeDefs = `
-  type Thought {
+  type BlogPost {
     _id: ID
-    thoughtText: String
-    thoughtAuthor: String
-    createdAt: String
-    comments: [Comment]!
-  }
-
-  type Comment {
-    _id: ID
-    commentText: String
+    title: String
+    author: String
+    content: String
     createdAt: String
   }
 
-  input ThoughtInput {
-    thoughtText: String!
-    thoughtAuthor: String!
+  input BlogPostInput {
+    title: String!
+    author: String!
+    content: String!
   }
 
   type Query {
-    thoughts: [Thought]!
-    thought(thoughtId: ID!): Thought
+    blogPosts: [BlogPost]!
+    blogPost(_id: ID!): BlogPost
   }
 
   type Mutation {
-    addThought(input: ThoughtInput!): Thought
-    addComment(thoughtId: ID!, commentText: String!): Thought
-    removeThought(thoughtId: ID!): Thought
-    removeComment(thoughtId: ID!, commentId: ID!): Thought
+    addBlogPost(input: BlogPostInput!): BlogPost
+    updateBlogPost(_id: ID!, input: BlogPostInput!): BlogPost
+    removeBlogPost(_id: ID!): BlogPost
   }
 `;
 
