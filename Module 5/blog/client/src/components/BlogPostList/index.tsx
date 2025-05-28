@@ -28,7 +28,7 @@ const BlogPostList: React.FC<BlogPostListProps> = ({ blogPosts, title }) => {
               {blogPost.title} <br />
             </h4>
             <div>
-              <p>{blogPost.author}</p>
+              <h3> Written by {blogPost.author} on {blogPost.createdAt}<br /></h3>
             </div>
             <Link
               to={`/blogPosts/${blogPost._id}`}
