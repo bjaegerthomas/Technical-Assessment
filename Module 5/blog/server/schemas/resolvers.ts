@@ -23,10 +23,10 @@ interface UpdateBlogPostArgs {
 
 const resolvers = {
   Query: {
-    blogPosts: async () => {
+    getblogPosts: async () => {
       return await BlogPost.find().sort({ createdAt: -1 });
     },
-    blogPost: async (_parent: unknown, { blogPostId }: BlogPostArgs) => {
+    getblogPost: async (_parent: unknown, { blogPostId }: BlogPostArgs) => {
       return await BlogPost.findOne({ _id: blogPostId });
     },
   },
